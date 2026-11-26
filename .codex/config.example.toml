@@ -1,0 +1,6 @@
+[mcp_servers.odins_eye]
+command = 'C:/path/to/odins-eye/.venv/Scripts/python.exe'
+args = ['-I', '-B', 'C:/path/to/odins-eye/server.py']
+env_vars = ['PLAYWRIGHT_MCP_CDP_ENDPOINT']
+startup_timeout_sec = 30
+tool_timeout_sec = 120

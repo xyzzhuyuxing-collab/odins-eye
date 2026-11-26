@@ -1,0 +1,4 @@
+[control]
+enabled = true
+policy = "strict"
+consent_countdown_seconds = 0
